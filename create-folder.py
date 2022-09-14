@@ -6,3 +6,5 @@ from pathlib import Path
 Path('new_folder').mkdir(exist_ok=True)
 
 Path('new_folder/new_subfolder/new_subsubfolder').mkdir(parents=True, exist_ok=True)
+
+
